@@ -61,6 +61,7 @@ ul {
 }
 #title{
     font-size: 2rem;
+    color: teal;
     border-bottom: solid 5px lightgray;
     text-align: left;
     padding: 0px;
@@ -69,12 +70,12 @@ ul {
 #biopic{
     float:left;
     width: 25%;
-    margin: 85px 0px 0px 26px;
+    margin: 70px 0px 0px 26px;
 }
 #aboutMe{
     float: right;
     width:70%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1.5em;
 }
 
