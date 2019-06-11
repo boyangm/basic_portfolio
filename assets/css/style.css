@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 960px;
+    padding: 0;
+    margin: 0 auto;
+    color: #777777; 
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: url(/Users/boyangmatsapola/Desktop/basic_portfolio/papyrus.png);  
+}
+
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: #ffffff;
+    border: #cccccc;
+    width: 100%;
+    height: 73px;
+    border-bottom: lightgray 3px solid;
+}
+#name{
+    background-color: teal;
+    margin-left: 100px;
+    color: white; 
+    width: 30%;
+    float: left;
+    height: 69px;
+    margin-left: 313px;
+    margin-top: 0px;
+    text-align: center;
+
+}
+ul {
+    margin-right: 200px;
+}
+ ul>li{
+    display: inline-block;
+   float: right;
+    width:5%;
+    padding: 10px 65px;
+    border-right: black 1px solid;
+    list-style: none;
+    
+
+ }
+#main-content{
+    width: 100%;
+    height: 550px;
+    margin: 0;
+
+}
+.basic-info{
+    background-color: #ffffff;
+    width: 80%;
+    height: 500px;
+    margin: 100px auto 0px;
+
+}
+#title{
+    border-bottom: solid 5px lightgray;
+    text-align: left;
+    padding: 0px;
+    margin: 0px 25px;
+}
+#biopic{
+    float:left;
+    width: 25%;
+    margin: 37px 0px 0px 26px;
+}
+#aboutMe{
+    float: right;
+    width:70%;
+    font-size: 2rem;
+    line-height: 1.5em;
+}
+
+}
+group:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: lightgrey;
+    padding: 10px;
+    text-align: center;
+}
+#name,
+#title{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
